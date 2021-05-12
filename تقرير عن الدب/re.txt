@@ -1,0 +1,27 @@
+<html>
+<style>
+h1
+{text-align:center}
+</style>
+<body>
+<h1>bear</h1>
+<div class="3 image">
+<img src="https://placebear.com/400/400" alt="clownfish"/>
+
+<p>Bear fur is often long and shaggy, and its colors vary according to the species, 
+ranging from white, blond or creamy, black and white, to total black or total white,
+ and the colors of the fur may differ within the species itself.</p>
+<ul>
+<li><span>Scopew</span>: eukaryotes</li>
+<li><span>Kingdom</span>: Animals</li>
+<li><span>Division</span>: Chordates</li>
+<li><span>Sect</span>: mammalsM</li>
+<li><span>Rank</span>: carnivores</li>
+<li><span>Species</span>: The bears</li>
+</ul>
+<p>Common features of all bear species are short tail and can reproduce and reproduce easily,
+ in addition to the accuracy of the sense of smell and hearing,
+ five non-recoil claws, and long, shaggy and dense fur.</p>
+</div>
+</body>
+</html>
