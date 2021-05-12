@@ -1,0 +1,168 @@
+
+ .jumbotron{
+     background-image:url("./img/back6.jpg") ;
+     
+      background-size: :2px;
+      
+      margin-bottom:0px;
+   
+      /* ضفنا ال margin top عمود لا تلزك ال navber  بل jumbotron */
+   }
+   .lead
+   {background-color: rgba(60, 255, 145);
+    box-shadow: 4px 1px 2px 1px ;
+    /*box-shadow هاي تنطيني ال رسم لو لبشكل على شكل 3 دي*/
+}
+   .mycard{
+       background-color: #dff9fb;
+       font-size: 100%;
+       color:rgb(10, 10, 1);
+
+   }
+   .mylist{
+       list-style-type: none;
+       //توخر النفاط
+   }
+   #item{
+
+
+background-color: #84817a;  
+ }
+ .myimge{
+
+  margin-right: 10em;
+ }
+ .myline{
+   
+    margin-top: 40px;
+
+    text-align:center;
+ }
+ 
+ .mytext{
+   
+
+    text-align:center;
+ }
+ .mypadding{
+     padding-top: 20px;
+     /*هاي رتح تنسوي مسافة بين كل صورة
+     */
+    padding: 35px;
+    /*هاي تنطي مسافة بين كل icon حولها 35
+    */
+  
+ }
+ #price{
+
+    padding-top: 35px;
+    background-color: #CAD3C8;
+ }
+.mycard2
+{
+
+   padding-top: 60 px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 60px;
+}
+#bussines{
+    padding-top: 50px;
+padding-bottom: 30px;
+
+background-image: url("./img/bsiness/b1.jpeg");
+}
+.card-text{
+    font-size: 12px;
+    text-align: justify;
+    /*text-align: justify تقوم بترتيب الخط*/
+}
+.card-title{
+    color: #4834d4;
+}
+.card1 :hover{
+    
+  
+ background-color: #353b48;
+}
+.card1 {
+    box-shadow: 4px 1px 2px 1px ;
+
+/*box-shadow هاي تنطيني ال رسم لو لبشكل على شكل 3 دي*/
+
+}
+.myspan{
+    color:#F8EFBA;
+    background-color: #222f3e;
+}
+#contact{
+
+    padding-top: 100px;
+    background-color: #f7f1e3;
+}
+#footer{
+    padding-top: 60px;
+    background-color: #3d3d3d;
+    color:cornsilk;
+}
+#myTab{
+
+    background-color:#c8d6e5;
+}
+#myteam{
+   
+
+padding-top:50px ;
+padding-bottom: 50px;
+background-color: teal;
+
+}
+a:hover{
+
+/*a:hover هاي راح تغير كل مادوس على النك تطلع بل لون الي اريدة 
+a معناتها كال النكات */
+    color:yellow;
+    
+}
+a{
+    /*a  معناتها كال النكات  غير لونها */
+    color: #40407a;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+
+    background-color: #485460;
+    color: #808e9b;
+}
+.mysize{
+
+    width: 50px;
+    height: 600px;
+}
+#btnscroll{
+    /*btnscroll هيا اسمه هذا*/
+    display: none;
+    
+    position: fixed;
+    /*position: fixed; يعني تضهر كدام كل شي*/
+    bottom: 30px;
+    right: 40px;
+    /*bottom: 30px;  right: 40px;  z-index: 99;  يعني مكانها على يمين اسفل الصفحة*/
+    z-index: 99;
+    cursor: pointer;
+    /*موشر الماوس */
+    padding: 16px;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: auto;
+    left: 0;
+    z-index: 1030;
+}
+.fixed-top1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: auto;
+    z-index: 1030;
+}

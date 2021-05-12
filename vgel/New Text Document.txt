@@ -1,0 +1,1139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="yol.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light fixed-top ">
+      <!--fixed-top   هاي راح تخلي ال navber ثابتة في الاعلى-->
+      <a class="nav-link" href="#"> <i class="fab fa-accusoft"></i> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span ><i class="fa fa-home"></i></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          <ul class="navbar-nav mr-auto "style="margin: auto;" >
+            <li class="nav-item ">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#item">Item <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#service">Service<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price"> Price </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bussines"> Bussines </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+         
+            
+          </ul>
+          
+        </div>
+        <form class="form-inline my-2 my-lg-0 fixed-top1">
+          <button type="button" class="btn btn-primary" type="submit" data-toggle="modal" data-target="#exampleModal">payment cards</button>
+           
+          
+        </form>
+      </nav>
+
+
+
+
+
+
+
+
+
+
+
+      <article id="myTab">
+        <!--articleهي نفس عمل section-->
+      
+      
+      
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+      
+      
+      
+      
+      
+            <div class="carousel-item active">
+              <img class="d-block w-100 mysize" src="./img/w1/2.PNG" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>this is my home</h5>
+                <p>The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area</p>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <img class="d-block w-100 mysize" src="./img/w1/3.PNG" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>this is my home</h5>
+                <p>The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area</p>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <img class="d-block w-100 mysize" src="./img/w1/4.PNG" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>this is my home</h5>
+                <p>The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area</p>
+              </div>
+            </div>
+
+
+
+          </div>
+          <!--
+            هاي اذا خلينها راح تضيف اسهم للتنقل
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          -->
+          </a>
+        </div>
+      
+      
+      
+      
+          </article>
+      
+  
+     
+      <header id="home" class="home">
+       
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col  ">
+         
+                <h1 class="display-4">Fluid jumbotron</h1>
+            
+                <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              </div>
+              
+                <div class="col">
+                  <div class="card">
+                    <div class="card-header">
+                      info
+                    </div>
+                    <div class="mycard">
+                      <h5 class="card-title">hi sign in the information</h5>
+                      <p class="card-text">
+                        <form>
+                        <div class="form-group">
+                          <label for="exampleInputEmail1">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="form-check">
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                       
+                      </form></p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+          
+       
+          </div>
+        </div>
+        
+      </header>
+
+
+
+
+
+
+      <section id="item">
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col 	.col-sm-6">
+              
+ <image src="./img/s1.png "height="350" width="350" class="myimge" >
+            </div>
+            <div class="col">
+              <h1>Asus ZenBook</h1>
+              <p>specification</p>
+                
+              <ul class="mylist">
+                <li>14 ing</li>
+                <li>Intel Core i7-8565U (8th Gen)</li>
+                <li>NVIDIA GeForce MX150 (2 GB)</li>
+                <li>8 GB RAM</li>
+                <li>512 GB SSD</li>
+                <br>
+                <li><button type="button" class="btn btn-outline-warning"><i class="fas fa-shopping-cart fa-2x"></i></button></li>
+              </ul>
+            </div>
+
+<hr>
+
+            <div class="col 	.col-sm-6">
+              
+              <image src="./img/s2.jpg "height="350" width="350" class="myimge" >
+                         </div>
+                         <div class="col">
+                           <h1>Lenovo Legion 5 15ARH05 Gaming</h1>
+                           <p>specification</p>
+                             
+                           <ul class="mylist">
+                             <li>15.6 ing</li>
+                             <li>AMD Ryzen 7-4800H</li>
+                             <li>NVIDIA GeForce GTX 1650 Ti (4 GB)</li>
+                             <li>16 GB RAM</li>
+                             <li>128 GB M.2 SSD/1 TB HDD</li>
+                             <br>
+                             <li><button type="button" class="btn btn-outline-warning"><i class="fas fa-shopping-cart fa-2x"></i></button></li>
+                           </ul>
+                         </div>
+
+
+<hr>
+
+                         <div class="col 	.col-sm-6">
+              
+                          <image src="./img/s3.jpg "height="350" width="350" class="myimge" >
+                                     </div>
+                                     <div class="col">
+                                       <h1>Dell XPS 13 9305 Laptop</h1>
+                                       <p>specification</p>
+                                         
+                                       <ul class="mylist">
+                                         <li>13.3 ing</li>
+                                         <li>Intel Core i5-1135G7 (Evo 11th Gen)</li>
+                                         <li>Intel Iris Xe Graphics</li>
+                                         <li>8 GB RAM</li>
+                                         <li>256 GB PCIe NVMe M.2 SSD</li>
+                                         <br>
+                                         <li><button type="button" class="btn btn-outline-warning"><i class="fas fa-shopping-cart fa-2x"></i></button></li>
+                                       </ul>
+                                     </div>
+
+          </div>
+
+
+      </section>
+    
+
+      <section id="service" calss="mytop">
+
+<h2 class="myline">Lorem Ipsum</h2>
+<p class="myline">this is the service any web</p>
+
+        <div class="container">
+          <div class="row ">
+            <div class=" col-lg-6  col-md-12 mypadding">
+            <div> 
+
+
+              <div class="media">
+                <img class="mr-3" src="./img/r1.png" width="100px">
+                <div class="media-body">
+                  <h2 class="mt-0">lication:</h2>
+                 <h4> baghdad,krada</h4>
+                </div>
+              </div>
+
+            </div>
+            </div>
+            <div class="  col-lg-6  col-md-12  mypadding">
+              <div class="media">
+                <img class="mr-3" src="./img/r2.png" width="100px">
+                <div class="media-body">
+                  <h2 class="mt-0">email:</h2>
+                 <h4>yosifhtml@gmail.com<br>
+                yosif199969@gmail.com</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <br>
+          <div class="row ">
+            <div class=" col-lg-6  col-md-12  mypadding">
+              <div class="media">
+                <img class="mr-3" src="./img/r3.jpg" width="100px">
+                <div class="media-body">
+                  <h2 class="mt-0">insgram:</h2>
+                 <h4> @yosif</h4>
+                </div>
+              </div>
+      
+            </div>
+            <div class="col-lg-6  col-md-12 mypadding">
+              <div class="media">
+                <img class="mr-3" src="./img/r4.png" width="90px">
+                <div class="media-body">
+                  <h2 class="mt-0">facebook:</h2>
+                 <h4> yosif alnimy</h4>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+
+
+      </section>
+
+
+
+     
+
+      <section id="price" >
+
+        <div class="container">
+
+          <!--container" هاي راح تساعدنا على اخفاء البياض في الحوافي 
+          -->
+
+
+        <h2 class="myline">Lorem Ipsum</h2>
+        <p class="myline">this is the service any web</p>
+        
+        
+
+
+        <div class="card-deck mycard2">
+          <div class="card">
+            <img class="card-img-top" src="./img/pr1.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top"src="./img/pr1.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+              <!--text-muted هو الي يخلي الخط فاتح وغير مرء-->
+              
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="./img/pr1.jpg">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+
+
+      </section>
+
+
+
+
+      <section id="bussines">
+        <div class="mycard2">
+
+        <h2 class="myline"><span class="myspan"> Lorem Ipsum</span></h2>
+        <p class="myline"> <span class="myspan">this is the service any web </span></p>
+      </div>
+
+
+
+
+        <div class="container">
+          <div class="row">
+          
+           
+            <div class="col">
+              
+            
+              <div class="card1 ">
+                <div class="card-body  ">
+                  <h5 class="card-title"><i class="fas fa-address-card fa-5x"></i></h5>
+                  
+                  <p class="card-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                 
+                  <!--كل ماريد اكبر iconاستخدم fa-الحجم الي اريدة x مثلا fa-5x -->
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-12 col-sm-12 col-lg-3">
+              
+        
+            
+                <div class="card1 ">
+                  <div class="card-body">
+                    <h5 class="card-title"><i class="fas fa-address-book fa-5x"></i></h5>
+                    
+                    <p class="card-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                   
+                    <!--كل ماريد اكبر iconاستخدم fa-الحجم الي اريدة x مثلا fa-5x -->
+                  </div>
+                </div>
+                
+              </div>
+            
+            <div class="col-md-12 col-sm-12 col-lg-3">
+              
+              <div class="card1 ">
+                <div class="card-body ">
+                  <h5 class="card-title"><i class=" fab fa-android fa-5x"></i></h5>
+                  
+                  <p class="card-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                 
+                  <!--كل ماريد اكبر iconاستخدم fa-الحجم الي اريدة x مثلا fa-5x -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-3">
+            
+              <div class="card1 ">
+                <div class="card-body ">
+                  <h5 class="card-title"><i class="fas fa-archway fa-5x"></i></h5>
+                  
+                  <p class="card-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                 
+                  <!--كل ماريد اكبر iconاستخدم fa-الحجم الي اريدة x مثلا fa-5x -->
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-3">
+              
+              <div class="card1 ">
+                <div class="card-body ">
+                  <h5 class="card-title"><i class="fas fa-anchor fa-5x"></i></h5>
+                  
+                  <p class="card-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                 
+                  <!--كل ماريد اكبر iconاستخدم fa-الحجم الي اريدة x مثلا fa-5x -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-3">
+            
+              <div class="card1 ">
+                <div class="card-body  ">
+                  <h5 class="card-title"><i class="fab fa-app-store fa-5x"></i></h5>
+                  
+                  <p class="card-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                 
+                  <!--كل ماريد اكبر iconاستخدم fa-الحجم الي اريدة x مثلا fa-5x -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-3">
+              
+              <div class="card1 ">
+                <div class="card-body  ">
+                  <h5 class="card-title"><i class="fab fa-amazon-pay fa-5x"></i></h5>
+                  
+                  <p class="card-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                 
+                  <!--كل ماريد اكبر iconاستخدم fa-الحجم الي اريدة x مثلا fa-5x -->
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-sm-12 col-lg-3">
+              
+              <div class="card1  ">
+                
+                <div class="card-body  ">
+                  
+                  <h5 class="card-title"><i class="fas fa-ambulance fa-5x"></i></h5>
+                  
+                  
+                  <p class="card-text">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                
+                  <!--كل ماريد اكبر iconاستخدم fa-الحجم الي اريدة x مثلا fa-5x -->
+                
+                </div>
+              
+              </div>
+            
+            </div>
+
+
+
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+<section id="myteam">
+
+
+<div class="container">
+
+
+
+  <div class="row">
+    <div class="col-sm-12 col-md-12 col-lg-3 ">
+      <img src="./img/person/mark.jpg" style="width: 460 xp; height:460 xp;" class="img-fluid rounded-circle img-thumbnail" >
+<!--img-thumbnail هاي اتخلي الصورة حولها دائرة مضللة بل ابيض-->
+
+      <ul class="mylist">
+        <li style="padding-left:30px ;" >Mark Zuckerberg</li>
+        <li style="padding-left:30px ;"> Facebook CEO </li>
+        
+        <li style="padding-left:30px ;">
+          <a href="#"><i class="fab fa-facebook-square fa-2x" ></i></a>
+          <a href="#"> <i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+
+
+
+        </li>
+        
+      
+        
+      </ul>
+
+
+
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-3 ">
+      <img src="./img/person/sander.jpg" style="width: 110%; height:55%;"  class="img-fluid rounded-circle img-thumbnail">
+
+      <ul class="mylist">
+        <li style="padding-left:30px ;">Sundar Pichai</li>
+        
+        <li style="padding-left:30px ;">Google CEO</li>
+        <li style="padding-left:30px ;">
+          <a href="#"><i class="fab fa-facebook-square fa-2x" ></i></a>
+          <a href="#"> <i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+
+
+
+        </li>
+        
+      
+        
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-3 ">
+      <img src="./img/person/stevjobs.jpg"style="width: 110%; height:55%;"  class="img-fluid rounded-circle img-thumbnail">
+
+      <ul class="mylist">
+        <li class="mytext" style="padding-right: 20px;" >Setev Jobs</li>
+        <li style="padding-left:30px ;"> Chairman of the  of Apple </li>
+        
+        <li style="padding-left: 30px;">
+          <a href="#"><i class="fab fa-facebook-square fa-2x" ></i></a>
+          <a href="#"> <i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+
+
+
+        </li>
+        
+      
+        
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-3   ">
+      <img src="./img/yos.jpg" style="width: 110%; height:55%;" class="img-fluid rounded-circle img-thumbnail" img>
+
+      <ul class="mylist">
+        <li style="padding-left:30px ;">Yoysif Abdalrhman</li>
+        <li style="padding-left:30px ;">Programmer </li>
+      
+        <li style="padding-left:30px ;">
+          <a href="#"><i class="fab fa-facebook-square fa-2x" ></i></a>
+          <a href="#"> <i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+
+
+
+        </li>
+        
+      
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <section id="contact">
+
+
+
+
+
+        <div class="container">
+
+          <h2 class="myline"><span class="myspan"> Lorem Ipsum</span></h2>
+          <p class="myline"> <span class="myspan">this is the service any web </span></p>
+
+          <div class="row">
+            <div class="col">
+              <form>
+                <div class="form-group">
+                  <label >Enter name</label>
+                  <br>
+                  <input type="text"  placeholder="enter your name">
+                  <br>
+                  <br>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="write comment pleas">comment</label>
+                  <input type="password" class="form-control" id="write comment pleas" placeholder="write comment pleas">
+                </div>
+               
+                <button type="submit" class="btn btn-outline-secondary">send</button>
+              </form>
+            </div>
+            <div class="col">
+              
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+              </p>
+              <ul class="mylist">
+                <li>addre:baghdad</li>
+                <li>tell:07516697518 </li>
+                <li>age:22</li>
+                <li>
+                  <a href="#"><i class="fab fa-facebook-square fa-2x" ></i></a>
+                  <a href="#"> <i class="fab fa-twitter-square fa-2x"></i></a>
+                  <a href="#"><i class="fab fa-google-plus fa-2x"></i></a>
+
+
+
+                </li>
+                
+              
+                
+              </ul>
+              
+            </div>
+          </div>
+         
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </section>
+
+
+
+
+
+
+
+      <table class="table   table-striped   table-bordered" >
+        <!-- thead-dark تخلي الصف لونا اسود 
+        table-striped تسوي بين صف وصف مرة فاتح ومرة طوخ
+        table-bordered تقسم الجدول تخلي خطوط
+        -->
+        <thead>
+          <tr class="thead-dark">
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row " >1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+      <section id="footer">
+
+
+
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+            
+              
+
+
+              <ul class="mylist">
+ 
+                <h5>this is facility</h5>
+
+                <li> home</li>
+                <br>
+                <li>ietm</li>
+                <br>
+                <li>service</li>
+                <br>
+                <li>price</li>
+                <br>
+                <li>bussines</li>
+                <br>
+                <li>contact</li>
+                <br>
+                <li>Dropdown </li>
+                <br>
+                <li>Search</li>
+              </ul>
+
+
+
+            </div>
+            <div class="col">
+              <ul class="mylist">
+                <h5>this is facility</h5>
+
+                <li> home</li>
+                <br>
+                <li>ietm</li>
+                <br>
+                <li>service</li>
+                <br>
+                <li>price</li>
+                <br>
+                <li>bussines</li>
+                <br>
+                <li>contact</li>
+               
+              
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="mylist">
+                <h5>this is facility</h5>
+
+                <li> home</li>
+                <br>
+                <li>ietm</li>
+                <br>
+                <li>service</li>
+                <br>
+                <li>price</li>
+             
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="mylist">
+                <form>
+                  <div class="form-row">
+                    <div class="col">
+                      <h6> Enter your First name </h6>
+                      <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                  </div>
+                  <br><br>
+                  <div class="row">
+                    <div class="col">
+                      <h6> Enter your Last name </h6>
+                      <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                  </div>
+                </form>
+                <br><br>
+                <button type="button" class="btn btn-secondary">send</button>
+          </ul>
+         
+            </div>
+          </div>
+         
+        </div>
+
+
+
+
+
+
+
+
+
+
+      </section>
+
+
+
+
+      <footer>
+
+       <p style=" padding: 15px;"><i class="fas fa-gamepad" style="color: brown;" > </i>Made by: <br>Yousif Abdalrhman</p>
+
+
+
+      </footer>
+
+
+
+
+      <button type="button"  id="btnscroll"   class="btn btn-danger"  onclick="toup()"><i class="fas fa-angle-double-up"></i></button>
+
+
+
+
+
+
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">payment cards </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              
+
+
+
+
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="number">Card number</label>
+                    <input type="Card number" class="form-control" id="Card number" placeholder="Card number">
+                  </div>
+                  
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">CVC</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="CVC">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="inputAddress">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                 
+                  
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <img src="./img/cr1.png" style="width: 10%;">
+                <img src="./img/cr2.png" style="width: 10%;">
+                <img src="./img/cr3.png" style="width: 10%;">
+                <img src="./img/cr4.png" style="width: 10%;">
+              </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+   
+ 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+    <!--في هذا ال script كل م نوكف على اعضاء navbar يتغير لونها-->
+  <script>
+  
+  var sections = $('section')
+  , nav = $('nav')
+  , nav_height = nav.outerHeight();
+
+$(window).on('scroll', function () {
+  var cur_pos = $(this).scrollTop();
+  
+  sections.each(function() {
+    var top = $(this).offset().top - nav_height,
+        bottom = top + $(this).outerHeight();
+    
+    if (cur_pos >= top && cur_pos <= bottom) {
+      nav.find('li').removeClass('active');
+      sections.removeClass('active');
+      
+      $(this).addClass('active');
+      nav.find('a[href="#'+$(this).attr('id')+'"]').parent("li").addClass('active');
+    }
+  });
+});
+
+nav.find('a').on('click', function () {
+  var $el = $(this)
+    , id = $el.attr('href');
+  
+  $('html, body').animate({
+    scrollTop: $(id).offset().top - nav_height + 100
+  }, 500);
+  
+  return false;
+});
+</script>
+
+
+
+
+
+<!--في هذا ال script خلينا حركة لل عناصر عند التنقل -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      /*يحدد الرقم الاختياري (800) عدد المللي ثانية الذي يستغرقه التمرير إلى المنطقة المحددة*/
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+
+
+
+
+<!-- 
+  ||   معناتها or
+  btnscroll اسم الفاكشن 
+-->
+
+<script>
+
+  window.onscroll = function(){
+scrollfunction();
+  };
+
+  function scrollfunction(){
+    if(document.body.scrollTop>20 || document.documentElement.scrollTop>20){
+      document.getElementById("btnscroll").style.display="block";
+
+    }
+    else
+  {
+    document.getElementById("btnscroll").style.display="none";
+    
+  }
+  }
+
+  function toup(){
+
+
+    document.body.scrollTop=0;
+    
+    document.documentElement.scrollTop=0;
+
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+  
+  
+  
+  </body>
+</html>
